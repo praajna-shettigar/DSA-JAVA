@@ -1,0 +1,11 @@
+* When given numbers from range 1,N => use cyclic sort
+
+before sorting
+index : 0, 1, 2, 3, 4
+value : 3, 5, 2, 1, 4
+
+After sorting
+index : 0, 1, 2, 3, 4
+value : 1, 2, 3, 4, 5
+
+index = value-1 (bcz we know in cyclic sort array will be in the range 1-N)

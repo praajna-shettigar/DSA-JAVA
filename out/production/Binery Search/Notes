@@ -1,0 +1,61 @@
+Algorithm
+---------
+Step 1: Find the middle element
+Step 2 : If target > mid -> search in the right side
+         If target < mid -> search in the left side
+Step 3 : If mid == target then we found the element
+
+
+Why Binary search
+-----------------
+time complexity worst case : log2(N)
+
+
+Ceiling Problem
+------------------
+Ceiling : Smallest number in the array which is greater or equal to target element
+int[] arr = {1,3,5,6,8,9,14,16,18}
+Ceiling(arr,target = 14 )  => ans 14
+Ceiling(arr,target = 15 )  => ans 16  because 15 is not present
+
+Floor Problem
+--------------
+Floor: Greatest number smaller or equal to target
+int[] arr = {1,3,5,6,8,9,14,16,18}
+Ceiling(arr,target = 14 )  => ans 14
+Ceiling(arr,target = 15 )  => ans 14  because 15 is not present
+
+
+Refer leetcode
+--------------
+Qtn no. - 744
+- Same approach as ceiling of number
+
+Qtn No. - 34. Find First and Last Position of Element in Sorted Array
+
+Qtn No. - 852. Peak Index in a Mountain Array
+
+Qtn No. - 162. Find Peak Element
+
+Qtn No. - 1095. Find in Mountain Array
+              - Find the peak element
+              - Binary search in asc array
+              - If not found search in dsc array
+
+Qtn No. - 33. Search in Rotated Sorted Array
+              -Find the pivot (pivot is the largest number in the array)
+              -Search in first half => Simple BS(0,pivot)
+              -If target not found search in second half => BS(pivot+1,end)
+              -if Target not found return -1;
+
+Qtn No. - 410. Split Array Largest Sum
+            case 1-Min no. of partition that we can make is 1
+            case 2-Max no. of partition that we can make is arr.length
+
+            Min ans = Max value in the array(when the partition is equal to array.length)(case 2)
+            Max ans = Sum of all the values in the array(case 1)
+
+Qtn : find the number of time array is rotated(rotation count)
+      -ans for this always pivot+1
+      -array is rotated pivot+1 time
+

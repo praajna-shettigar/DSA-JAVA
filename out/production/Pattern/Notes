@@ -1,0 +1,6 @@
+Tricks
+------
+1.Run the the outer for till it matches to number of rows
+  No. of lines = No. of rows = No. of time outer loop will run
+2.Identify for every row how many columns are there.
+3.What do you need to print

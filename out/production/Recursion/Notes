@@ -1,0 +1,30 @@
+Recursion : Recursion is function calling itself
+Base Condition : It is a simple "if" condition where our recursion will stop making new calls
+* when there is no base condition, function call will keep happening, stack will be filled.
+  memory of the computer will exceed the limit -> shows stackoverflow error
+*If you are calling same function again and again, you can treat it as separate call in stack
+
+Why Recursion
+-------------
+* It helps us in solving bigger/complex problems in a simple way
+*You can convert recursion solution into iteration & vice versa
+* Space Complexity is not constant because of recursive calls
+*It help us in breaking down bigger problems into smaller problems
+
+How to understand and approach a problem
+----------------------------------------
+1.Identify if you can break the problem into smaller problem
+2.Write the recurrence relation if needed
+3.Draw the recurrence tree
+4.About the tree
+  * see the flow of function,how they are getting in stack
+  * Identify and focus on left tree calls and right tree calls
+  * Draw the tree and pointers again and again using pen and paper, use debugger to see the flow.
+5. See how the values are returned in each step.see where function call comes out of
+
+Types of recurrence relation
+----------------------------
+1.Linear recurrence relation -> Fibo
+2.Divide and  conquer recurrence relation -> Binary search --> F(N) = O(1) + F(N/2)
+
+

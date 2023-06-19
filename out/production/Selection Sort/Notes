@@ -1,0 +1,8 @@
+Selection sort
+--------------
+-Select a element and put it at it's correct index
+-worst case - O(n2)
+-best case -O(n2)
+use case
+--------
+it perform well in small array/list

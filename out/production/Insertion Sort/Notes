@@ -1,0 +1,17 @@
+For every index:
+put that index element at the correct index of left hand side
+
+After first pass(i=0):first 2 element will be sorted(sorted till index no 1)
+After 2nd pass(i=1) : first 3 element will be sorted(sorted till index no 2)
+same repeat
+
+complexity
+----------
+worst case : O(N*N) when array is sorted in desc order
+best case :O(N) when array is in sorted order
+
+use of Selection sort
+---------------------
+*adaptive: Steps get reduced if array is sorted. No of steps reduced as compared to bubble sort
+*stable :
+* used for smaller values of N => works good when arrray is partially sorted
