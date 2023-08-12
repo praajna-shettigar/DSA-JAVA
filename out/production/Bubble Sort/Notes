@@ -1,0 +1,14 @@
+Bubble sort
+-----------
+--this algorithm is known as inplace sorting algorithm
+-In evey step we are comparing adjecent element
+-After  first iteration largest element will come to end
+-After 2nd iteration last 2 element will be at the correct place---same repeat
+--this is also known as sinking sort or exchange sort
+--space complexity = O(1) //constant //no extra space is required
+-time complexity
+  -Best case : O(N) => when array is sorted
+  -Worst case : O(N2)-N square => when array is sorted in reverse form
+
+-When j never swap for the value that means array is sorted
+

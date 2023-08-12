@@ -1,0 +1,31 @@
+Quick sort
+------------
+Quick sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays.
+A large array is partitioned into two arrays one of which holds values smaller than the specified value, say pivot,
+based on which the partition is made and another array holds values greater than the pivot value.
+
+What is Quick Sort?
+-------------------
+* Quick sort, also known as partition-exchange sort, is an in-place sorting algorithm.
+  It is a divide-and-conquer algorithm that works on the idea of selecting a pivot element and dividing the array into two subarrays around that pivot.
+
+* In quick sort, after selecting the pivot element, the array is split into two subarrays.
+  One subarray contains elements smaller than the pivot element, and the other subarray contains elements greater than the pivot element.
+
+
+Recurence relation of Quick Sort
+--------------------------------
+T(N) = T(K) + T(N-K-1) + O(N)
+
+Time Complexity
+-----------------
+Worst case : when greatest element is taken as pivot element
+----------
+            T(N) = T(N-1) + O(N)
+            O(N2)
+
+Best Case
+---------
+T(N) = 2T(N/2) + O(N)
+
+O(NlogN)

@@ -1,0 +1,15 @@
+Merge Sort
+---------
+* It follows divide and conqure method
+
+
+Steps
+-----
+* divide the array into two part.
+* Get both the part sorted via recursion.
+* Merge the sorted part
+
+Time complexity
+---------------
+* At every level, N elements are being merged.
+* Time cmplexity - O(N * logN)

@@ -1,0 +1,23 @@
+Observation - XOR
+-----------------
+* Any number XOR with that number gives 0
+* 0 XOR with any number gives that number
+* Any number XOR with 1 gives that number complement
+
+ex:
+a ^ 1 = a- (complement of a)
+a ^ 0 = a
+a ^ a = 0
+
+-----------------------------------------------------------------------
+Negative number in binary
+10 --> 0 0 0 0 1 0 1 0
+first bit(MSB) says number is nagetive or positive
+ 0 -> +ve
+ 1 -> -ve
+
+last bit(LSB) say number is even or odd
+
+--------------------------------------------------------------------
+Number of digits in base b of number n
+int(logb(n)) +1

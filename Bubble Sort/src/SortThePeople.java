@@ -1,24 +1,29 @@
 import java.util.Arrays;
 
-public class BubbleSort {
+public class SortThePeople {
+
     public static void main(String[] args) {
-        int[] arr = {4,6,2,8,3,9};
-        bubble(arr);
-        System.out.println(Arrays.toString(arr));
+        String[] names = {"Mary","John","Emma"};
+        int[] heights = {180,165,170};
+        bubble(names,heights);
+        System.out.println(Arrays.toString(names));
 
     }
-    static void bubble(int[] arr){
+    static void bubble(String[] names,int[] arr){
         boolean swapped;
         //run the steps n-1 times
         for (int i=0;i<arr.length;i++){
             swapped = false;
-            for (int j = 0; j < arr.length-i; j++) {
+            for (int j = 1; j < arr.length-i; j++) {
                 //swap if the item is smaller than the previous item
-                if(arr[j]<arr[j-1]){
+                if(arr[j]>arr[j-1]){
                     //swap
                     int temp = arr[j];
+                    String tempname = names[j];
                     arr[j] = arr[j-1];
+                    names[j]=names[j-1];
                     arr[j-1]=temp;
+                    names[j-1]=tempname;
                     swapped = true;
                 }
             }
@@ -28,5 +33,4 @@ public class BubbleSort {
             }
         }
     }
-
 }

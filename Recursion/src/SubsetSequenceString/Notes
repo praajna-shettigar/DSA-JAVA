@@ -1,0 +1,6 @@
+Subset
+------
+* Subset is non adjecent collection
+ str = "abc"
+ ans = [ "a","b","c","ab","bc","ca","abc"]
+ --> this pattern of taking some element and removing some is known as subset pattern.
