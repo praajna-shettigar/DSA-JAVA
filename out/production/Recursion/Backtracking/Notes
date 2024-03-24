@@ -1,0 +1,3 @@
+Maze with obstacles(rever)
+ -> When you land on the new cell check wheater it is rever or not
+ -> If it is rever stop recursion call

@@ -25,6 +25,7 @@ public class DisappearedNumberInArray {
             }
 
         }
+         System.out.println(arr.toString());
         //return missing numbers
         List<Integer> ans = new ArrayList<>();
         for (int j = 0; j < arr.length; j++) {

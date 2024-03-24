@@ -9,11 +9,11 @@ public class CyclicSort {
     static void cyclicSort(int[] arr){
         int i = 0;
         while(i<arr.length){
-            int correcIndex = arr[i]-1;
-            if(arr[i] != arr[correcIndex]){
+            int correctIndex = arr[i]-1;
+            if(arr[i] != arr[correctIndex]){
                 int temp = arr[i];
-                arr[i] = arr[correcIndex];
-                arr[correcIndex]= temp;
+                arr[i] = arr[correctIndex];
+                arr[correctIndex]= temp;
             }else{
                 i++;
             }

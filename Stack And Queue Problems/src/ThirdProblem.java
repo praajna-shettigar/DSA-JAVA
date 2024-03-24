@@ -1,5 +1,5 @@
 import java.util.Stack;
-
+//leetcode problem - 84
 public class ThirdProblem {
     public static void main(String[] args) {
 
@@ -17,8 +17,27 @@ public class ThirdProblem {
 
         }
 
+        int i = heights.length;
+        while(!stack.isEmpty()){
+            max = getMax(heights,stack,max,i);
+        }
+
         return max;
 
+    }
+
+    private static int getMax(int[] arr,Stack<Integer> stack,int max,int i){
+        int area = 0;
+
+        int popped = stack.pop();
+
+        if(stack.isEmpty()){
+            area = arr[popped]*i;
+        }else{
+            area = arr[popped] * (i-1-stack.peek());
+        }
+
+        return Math.max(max,area);
     }
 
 

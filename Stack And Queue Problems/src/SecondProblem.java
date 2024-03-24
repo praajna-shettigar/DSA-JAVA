@@ -2,7 +2,12 @@ import java.util.Arrays;
 
 //Hacker Rank problem//Two stacks
 public class SecondProblem {
-    static int SecondProblem(int x,int[] a,int[] b){
+    public static void main(String[] args) {
+        int[] a = {4,2,4,6,1};
+        int[] b = {2,1,8,5};
+        System.out.println(SecondProblem(10,a,b));
+    }
+    public static int SecondProblem(int x,int[] a,int[] b){
         return SecondProblem(x,a,b,0,0)-1;
     }
 
@@ -20,7 +25,7 @@ public class SecondProblem {
         }
 
         int ans1 = SecondProblem(x, Arrays.copyOfRange(a,1,a.length),b,sum+a[0],count+1);
-        int ans2 = SecondProblem(x, a,Arrays.copyOfRange(b,1,b.length),sum+a[0],count+1);
+        int ans2 = SecondProblem(x, a,Arrays.copyOfRange(b,1,b.length),sum+b[0],count+1);
 
         return Math.max(ans1,ans2);
     }

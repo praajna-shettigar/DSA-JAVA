@@ -3,9 +3,13 @@ import java.util.Stack;
 //232.implement Queue using stack
 public class FirstProblem {
     public static void main(String[] args) {
-        Stack<Integer> stack = new Stack<>();
-        stack.push(3);
-        System.out.println(stack.pop());
+//        Stack<Integer> stack = new Stack<>();
+//        stack.push(3);
+//        System.out.println(stack.pop());
+        QueueUsingClass stack = new QueueUsingClass();
+        stack.add(1);
+        stack.add(2);
+        System.out.println(stack.remove());
     }
 
 }

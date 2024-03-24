@@ -1,0 +1,8 @@
+Linked-List
+-----------
+*Linked-list is not continue memory allocation.
+* which are number of node connected to each other.
+* Every node contains "Value" and "Address of next node (Node)".
+* There are two reference variable in Linked List - Head and Tail
+* Head is a reference variable that points to first variable
+* Tail is a reference variable that points to last variable

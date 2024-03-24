@@ -1,0 +1,17 @@
+Stream API
+**********
+The Stream API in Java provides a powerful way to manipulate collections of data.
+
+Intermediate Operations:
+***********************
+Intermediate operations are those that return a new stream.
+They are typically used for transforming or filtering elements in the stream.
+Intermediate operations are lazy, meaning they do not process elements until a terminal operation is invoked.
+Examples include map, filter, sorted, distinct, limit, skip, flatMap, etc.
+
+Terminal Operations:
+********************
+Terminal operations are those that produce a non-stream result, such as a value or a collection.
+They initiate the processing of the stream and produce a final result.
+Once a terminal operation is invoked, the stream is consumed, and no further operations can be applied to it.
+Examples include forEach, collect, reduce, count, min, max, anyMatch, allMatch, noneMatch, etc.

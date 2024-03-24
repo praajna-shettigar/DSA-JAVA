@@ -1,0 +1,50 @@
+Tree
+
+Node :
+    int val;
+    Node left;
+    Node right;
+
+Properties:
+* size : Total number of node
+* child & Parent
+* Siblings
+* Edge - Line that connecting two nodes
+* height -maximum number of edges from the node & leaf node
+* leaf nodes - last node
+* level - height of root - height of node
+* Degree - number of children for node - this can be 0,1,2
+
+
+Types of Binary tree:
+* Complete binary tree : All the levels are full apart from last level is full from left to right (when filling the last level it should be filled from left to right)
+
+* Full binary tree / Strict binary tree : every node should have zero or two children
+
+* Perfect binary tree : All levels are full
+
+* Height balanced binary tree : Avg height o(logn)
+
+* Skewed binary tree : Every node has only one child
+
+* Ordered binary tree : Every node has some property
+
+Properties that will help to solve problem
+------------------------------------------
+* Perfect binary tree, height = h
+  Total nodes = 2pow(h+1) - 1
+  perfect bt will have maximum number of node.
+
+* String bt , N -> leaf nodes
+              N-1 -> internal nodes
+   No. of leaf node = No. of internal nodes +1
+
+* No. of leaf node = 1+No. of internal node with two children(No including root)
+
+Balanced tree
+-------------
+Height difference between any two nodes is should be 0 or 1
+
+Binary Search tree(it is a type of binary tree)
+-----------------------------------------------
+*left hand side node value will be smaller and right hand side node value will be greater
