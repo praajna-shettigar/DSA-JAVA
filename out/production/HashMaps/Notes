@@ -1,0 +1,5 @@
+Important features of hashmap
+-To access a value one must know it's key
+-Hashmap doesn't allows duplicate key, but allows duplicate value.
+-HashMap allows null key also but only once  and multiple null values.
+-Java Hashmap maintains no order

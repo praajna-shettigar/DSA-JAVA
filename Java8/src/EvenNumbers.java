@@ -9,6 +9,8 @@ public class EvenNumbers {
                 .filter(num -> num % 2 == 0)
                 .toArray();
 
+        //print directly
+        Arrays.stream(array).filter(num -> num % 2 == 0).forEach(x-> System.out.println("even - "+ x));
         // Print even numbers
         System.out.println("Even numbers: " + Arrays.toString(evenNumbers));
     }
