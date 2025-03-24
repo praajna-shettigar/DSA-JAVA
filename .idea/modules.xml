@@ -3,10 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Binery Search/Binery Search.iml" filepath="$PROJECT_DIR$/Binery Search/Binery Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bit Manipulation/Bit Manipulation.iml" filepath="$PROJECT_DIR$/Bit Manipulation/Bit Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BrowserStack/BrowserStack.iml" filepath="$PROJECT_DIR$/BrowserStack/BrowserStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bubble Sort/Bubble Sort.iml" filepath="$PROJECT_DIR$/Bubble Sort/Bubble Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cycle Sort/Cycle Sort.iml" filepath="$PROJECT_DIR$/Cycle Sort/Cycle Sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design Pattern/Design Pattern.iml" filepath="$PROJECT_DIR$/Design Pattern/Design Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" filepath="$PROJECT_DIR$/Dynamic Programming/Dynamic Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Goldman_sac/Goldman_sac.iml" filepath="$PROJECT_DIR$/Goldman_sac/Goldman_sac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Graph/Graph.iml" filepath="$PROJECT_DIR$/Graph/Graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Greedy/Greedy.iml" filepath="$PROJECT_DIR$/Greedy/Greedy.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMaps/HashMaps.iml" filepath="$PROJECT_DIR$/HashMaps/HashMaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/Heaps/Heaps.iml" filepath="$PROJECT_DIR$/Heaps/Heaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/Insertion Sort/Insertion Sort.iml" filepath="$PROJECT_DIR$/Insertion Sort/Insertion Sort.iml" />
@@ -23,8 +29,11 @@
       <module fileurl="file://$PROJECT_DIR$/SpaceAndTimeComplexity/SpaceAndTimeComplexity.iml" filepath="$PROJECT_DIR$/SpaceAndTimeComplexity/SpaceAndTimeComplexity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack And Queue/Stack And Queue.iml" filepath="$PROJECT_DIR$/Stack And Queue/Stack And Queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stack And Queue Problems/Stack And Queue Problems.iml" filepath="$PROJECT_DIR$/Stack And Queue Problems/Stack And Queue Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream-api/Stream-api.iml" filepath="$PROJECT_DIR$/Stream-api/Stream-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/System Design/System Design.iml" filepath="$PROJECT_DIR$/System Design/System Design.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tree/Tree.iml" filepath="$PROJECT_DIR$/Tree/Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intrv/intrv.iml" filepath="$PROJECT_DIR$/intrv/intrv.iml" />
     </modules>
   </component>
 </project>

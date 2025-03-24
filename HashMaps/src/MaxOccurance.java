@@ -20,7 +20,7 @@ public class MaxOccurance {
         System.out.println(map);
         int maxOccurance = 0;
         int ke =0;
-        for (var e:map.entrySet()){
+        for (Map.Entry<Integer,Integer> e:map.entrySet()){
             if(e.getValue() >maxOccurance){
                 ke = e.getKey();
                 maxOccurance = e.getValue();

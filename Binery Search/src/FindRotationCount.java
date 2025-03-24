@@ -1,6 +1,6 @@
 public class FindRotationCount {
     public static void main(String[] args) {
-        int[] arr = {5,8,0,1,2,3,4};
+        int[] arr = {5,8,9,0,1,2,3,4};
         int pivot = findPivot(arr);
         System.out.println(pivot+1);
     }

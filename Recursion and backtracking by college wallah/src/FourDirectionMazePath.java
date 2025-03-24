@@ -9,7 +9,7 @@ public class FourDirectionMazePath {
     public static void print(int startRow,int startCol,int endRow,int endCol,String s,boolean[][] isVisited){
         if(startRow<0 || startCol<0) return;
         if(startRow>endRow || startCol>endCol) return;
-        if(isVisited[startRow][startCol]==true) return;
+        if(isVisited[startRow][startCol]) return;
 
         if(startRow==endRow && startCol==endCol){
             System.out.println(s);

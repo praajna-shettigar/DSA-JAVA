@@ -32,7 +32,7 @@ public class QuickSort {
                 s++;
                 e--;
             }
-            //now pivot is at coorect index,sort two halves now
+            //now pivot is at correct index,sort two halves now
             sort(nums,low,e);
             sort(nums,s,hi);
         }

@@ -2,7 +2,7 @@ package SubsetSequenceString;
 
 import java.util.ArrayList;
 import java.util.List;
-
+///all combination of phone pattern
 public class PhonePattern {
 
     public static void main(String[] args) {

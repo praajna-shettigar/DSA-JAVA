@@ -30,7 +30,7 @@ class Circle implements Shape{
 public class LambdaExample {
 
     public static void main(String[] args) {
-        Shape rectangle = () -> System.out.println("Rectangle class : draw() method ");
+        Shape rectangle = () -> System.out.println("Rectangle class : draw() method 1");
         rectangle.draw();
 
         Shape square = () -> System.out.println("square class : draw() method ");

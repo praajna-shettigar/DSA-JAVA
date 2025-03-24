@@ -1,0 +1,14 @@
+The Null Object design pattern is a behavioral design pattern that provides a default,
+"do-nothing" object in place of null references. Instead of returning null when an object
+is not available, a special instance of a class (the "Null Object") is used to provide benign behavior.
+This prevents NullPointerExceptions and simplifies client code by eliminating the need for null checks.
+
+Key Concepts of Null Object Pattern:
+1.Null Object: An object that implements the same interface as a real object but performs
+  no action (or returns a default value) when its methods are called.
+
+2.Real Object: The actual object with meaningful behavior,
+  which the Null Object substitutes when the real object isn’t available.
+
+3.Client: Code that interacts with both Real and Null objects, without needing to handle null checks.
+

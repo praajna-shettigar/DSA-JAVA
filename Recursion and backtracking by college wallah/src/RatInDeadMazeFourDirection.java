@@ -17,7 +17,7 @@ public class RatInDeadMazeFourDirection {
             return;
         }
         if(maze[startRow][startCol]==0) return;
-        if(isVisited[startRow][startCol]==true) return;
+        if(isVisited[startRow][startCol]) return;
 
         isVisited[startRow][startCol] = true;
 

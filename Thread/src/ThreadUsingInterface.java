@@ -33,5 +33,18 @@ public class ThreadUsingInterface {
         t2.join();
         System.out.println(t1.isAlive());
 
+        Runnable obj = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("hellllllllo");
+            }
+        };
+        Thread t3 = new Thread(obj);
+        t3.start();
+
+        //optimise above
+        Thread t4 = new Thread(()-> System.out.println("hellllllllo from optimised code"));
+        t4.start();
+
     }
 }

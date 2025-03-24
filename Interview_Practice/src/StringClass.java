@@ -4,6 +4,7 @@ public class StringClass {
         String a = "Praajna";
         String b = "Praajna";
         System.out.println(a==b);
+        System.out.println(a.equals(b));
 
         String str1 = new String("test");
         String str2 = new String("test");

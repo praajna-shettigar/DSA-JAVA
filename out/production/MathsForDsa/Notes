@@ -21,3 +21,7 @@ last bit(LSB) say number is even or odd
 --------------------------------------------------------------------
 Number of digits in base b of number n
 int(logb(n)) +1
+
+
+-----------------
+leetcode : 832

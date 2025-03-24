@@ -1,9 +1,12 @@
 import java.util.HashMap;
 import java.util.Map;
 
+
+//determine if the given strings are Isomorphic
+//Two String s and t are isoporphic if the character in s can be replaced to get t
 public class Isomorphic {
     public static void main(String[] args) {
-
+        System.out.println(isIsomorphic("pra","bpb"));
     }
     public static boolean isIsomorphic(String s, String t){
         Map<Character,Character> map = new HashMap<>();

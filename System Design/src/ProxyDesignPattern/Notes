@@ -1,0 +1,22 @@
+The Proxy Design Pattern is a structural design pattern that provides a surrogate or placeholder for another
+object to control access to it. This can be useful in various scenarios, such as lazy loading, access control,
+monitoring, and more. The Proxy acts as an intermediary between the client and the real object, allowing you
+to add additional functionality or control access without modifying the actual object.
+
+Components of the Proxy Design Pattern
+
+1.Subject Interface: This is an interface that both the Real Subject and the Proxy implement.
+It defines the common set of methods that the client can use to interact with the Real Subject and its Proxy.
+This ensures that the Proxy can stand in for the Real Subject seamlessly.
+
+2.Real Subject: The Real Subject is the actual object that the Proxy represents.
+It implements the Subject interface and contains the real implementation of the functionality
+that the Proxy will control access to.
+
+3.Proxy: The Proxy is a class that also implements the Subject interface and maintains
+a reference to the Real Subject. The Proxy controls access to the Real Subject and can
+add additional behaviors or logic as needed.
+
+4.Client: The Client is the part of the code that interacts with the Proxy.
+It is typically unaware of whether it’s dealing with the Proxy or the Real Subject,
+as they both implement the same interface.

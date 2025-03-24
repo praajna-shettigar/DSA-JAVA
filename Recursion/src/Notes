@@ -24,7 +24,7 @@ How to understand and approach a problem
 
 Types of recurrence relation
 ----------------------------
-1.Linear recurrence relation -> Fibo
+1.Linear recurrence relation -> Fibo.Fibo
 2.Divide and  conquer recurrence relation -> Binary search --> F(N) = O(1) + F(N/2)
 
 

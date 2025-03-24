@@ -1,0 +1,10 @@
+The Adapter Design Pattern is a structural design pattern used to bridge the gap between two incompatible interfaces,
+allowing them to work together. It acts as a translator between a client and an incompatible service or class.
+
+Key Concepts of Adapter Pattern:
+Client: The object that requires a specific interface to interact with a service.
+Adaptee: The existing class or service with an interface incompatible with the client.
+Adapter: A wrapper that translates the Adaptee's interface into one that the client understands.
+
+
+Extra Reference : https://github.com/ashishps1/awesome-low-level-design/blob/main/design-patterns/java/adapter

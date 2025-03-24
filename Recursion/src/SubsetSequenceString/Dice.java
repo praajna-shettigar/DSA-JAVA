@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Dice {
     public static void main(String[] args) {
         dice("",4);
-        System.out.println(diceListFace("",4,7));
+//        System.out.println(diceListFace("",8,8));
 //        ArrayList<String> list = diceList("",4);
 //        System.out.println(list);
     }
