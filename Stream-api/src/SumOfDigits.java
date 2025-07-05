@@ -9,5 +9,9 @@ public class SumOfDigits {
         Integer sumOfDigits = Stream.of(String.valueOf(i).split("")).mapToInt(s->Integer.parseInt(s)).sum();
 
         System.out.println(sumOfDigits);
+
+        String str = "123456";
+        Integer prod = Stream.of(str.split("")).mapToInt(s->Integer.parseInt(s)).reduce((a,b)->a*b).getAsInt();
+        System.out.println(prod);
     }
 }

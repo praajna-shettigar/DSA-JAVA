@@ -12,7 +12,7 @@ public class ExtractDuplicate {
 
         Set<Integer> uniqueElements = new HashSet<>();
 
-        Set<Integer> duplicateElements = listOfIntegers.stream().filter(i -> ! uniqueElements.add(i)).collect(Collectors.toSet());
+        List<Integer> duplicateElements = listOfIntegers.stream().filter(i -> ! uniqueElements.add(i)).collect(Collectors.toList());
 
         System.out.println(duplicateElements);
     }

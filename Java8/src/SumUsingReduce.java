@@ -15,6 +15,9 @@ public class SumUsingReduce {
 
         int sum = list.stream().reduce(0,(a, b)->a+b);
 
+        int sum1 = list.stream().mapToInt(s->s.intValue()).sum();
+        System.out.println(sum1);
+
         int prod = list.stream().reduce(1,(a,b)->a*b);
 
         System.out.println(sum);

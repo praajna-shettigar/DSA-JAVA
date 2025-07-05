@@ -11,7 +11,7 @@ public class ConvertToLower {
         arrayList.add("e");
         arrayList.add("x");
 
-            List<String> arrayList1 = arrayList.stream().distinct().map(y->y.toUpperCase()).collect(Collectors.toList());
+        List<String> arrayList1 = arrayList.stream().distinct().map(y->y.toUpperCase()).collect(Collectors.toList());
         System.out.println(arrayList1);
 
         //print the above using foreach instead of saving

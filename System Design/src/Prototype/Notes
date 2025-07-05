@@ -1,0 +1,3 @@
+* . Prototype Design Pattern is a creational design pattern that let you create a  new objects by clonning existing ones,
+   instead of  instantiating them from the scratch
+
