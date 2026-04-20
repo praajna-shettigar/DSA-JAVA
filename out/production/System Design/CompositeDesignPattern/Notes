@@ -1,0 +1,4 @@
+-The Composite Design Pattern is a structural design pattern used to treat individual
+objects and compositions of objects uniformly.
+-It is especially useful when dealing with tree-like hierarchical structures,
+such as file systems, organizational structures, or GUIs.

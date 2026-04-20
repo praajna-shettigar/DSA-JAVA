@@ -1,0 +1,6 @@
+Design a File System Using Composite Design Pattern
+Structure:
+Component Interface: Represents both files and directories. It defines common operations like showDetails().
+Leaf: Represents files, which have no children.
+Composite: Represents directories, which can contain files and other directories.
+

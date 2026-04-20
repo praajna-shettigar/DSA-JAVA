@@ -7,7 +7,7 @@ public class CeilingOfNumber {
 
     public static void main(String[] args) {
         int[] arr = {1,3,5,6,8,9,14,16,18};
-        int target = 4;
+        int target = 3;
         System.out.println(ceiling(arr,target));
     }
 

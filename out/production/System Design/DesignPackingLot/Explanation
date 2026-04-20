@@ -1,0 +1,57 @@
+Problem Statement:
+Design a parking lot system that manages parking for different types of vehicles (e.g., motorcycles, cars, and buses).
+The system should handle parking, retrieving parked vehicles, and tracking available spaces.
+
+Requirements:
+1.Parking Levels: The parking lot can have multiple levels (or floors).
+2.Parking Spots: There are different types of parking spots based on the size of vehicles:
+  *.Motorcycle spots: Smallest spots that only motorcycles can park in.
+  *.Car spots: Spots that can accommodate motorcycles and cars.
+  *.Bus spots: Largest spots that can accommodate buses, cars, and motorcycles.
+3.Vehicles: Different types of vehicles require different spot sizes:
+  *.Motorcycle
+  *.Car
+  *.Bus: Takes multiple parking spots.
+4.Track Availability: The system should track and report available parking spots by type.
+5.Parking and Unparking: The system should allow vehicles to park in available spots and free up spaces when vehicles leave.
+
+
+Classes and Relationships:
+We'll use object-oriented principles to design this system, identifying core entities, their properties, and behaviors.
+
+1. ParkingLot
+This class represents the entire parking lot. It manages multiple levels and delegates the responsibility of managing parking spots to those levels.
+
+2. ParkingLevel
+Each level has a fixed number of parking spots for different vehicle types. It manages parking spots and tracks availability on that level.
+
+3. ParkingSpot
+This represents a single parking spot on a level. Each parking spot has a size (Motorcycle, Car, or Bus) and can either be empty or occupied by a vehicle.
+
+4. Vehicle
+This is a base class for different vehicle types like Motorcycle, Car, and Bus. Each vehicle requires a specific type of spot (small, medium, or large)
+
+    +-----------------+       +----------------+       +------------------+
+    |    ParkingLot    |       | ParkingLevel   |       |  ParkingSpot     |
+    +-----------------+       +----------------+       +------------------+
+    | - levels: List   |       | - spots: List  |       | - spotType       |
+    +-----------------+       | - levelNumber  |       | - isAvailable    |
+    | + parkVehicle()  |       +----------------+       +------------------+
+    | + leaveSpot()    |       | + parkVehicle()|       | + parkVehicle()  |
+    +-----------------+       | + leaveSpot()  |       | + leaveSpot()    |
+                               +----------------+       +------------------+
+                                         ^
+                                         |
+                              +------------------+
+                              |     Vehicle      |
+                              +------------------+
+                              | - vehicleSize    |
+                              +------------------+
+                              | + canFitInSpot() |
+                              +------------------+
+                                     ^
+           +-------------+------------+------------+
+           |             |                         |
+   +----------------+  +----------------+    +---------------+
+   |   Motorcycle    |  |      Car       |    |      Bus      |
+   +----------------+  +----------------+    +---------------+

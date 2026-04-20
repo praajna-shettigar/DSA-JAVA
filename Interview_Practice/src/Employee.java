@@ -11,17 +11,17 @@ public class Employee {
 
     String id;
     String name;
-    String designation;
-    int age;
+    String department;
+    int salary;
 
     public Employee() {
     }
 
-    public Employee(String id, String name, String designation, int age) {
+    public Employee(String id, String name,  String department, int salary) {
         this.id = id;
         this.name = name;
-        this.designation = designation;
-        this.age = age;
+        this.department = department;
+        this.salary = salary;
     }
 
     public String getId() {
@@ -40,19 +40,21 @@ public class Employee {
         this.name = name;
     }
 
-    public String getDesignation() {
-        return designation;
+
+
+    public String getDepartment() {
+        return department;
     }
 
-    public void setDesignation(String designation) {
-        this.designation = designation;
+    public void setDepartment(String department) {
+        this.department = department;
     }
 
-    public int getAge() {
-        return age;
+    public int getSalary() {
+        return salary;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 }

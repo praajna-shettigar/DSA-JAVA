@@ -1,0 +1,4 @@
+When we are creating object of some entity and fields will be different in different time then we ca go for builder design pattern
+
+-> Instead of creating Phone object directly we can use phoneBuilder Class
+-> set the values from phone builder

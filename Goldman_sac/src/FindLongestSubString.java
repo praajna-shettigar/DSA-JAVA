@@ -27,7 +27,7 @@ public class FindLongestSubString {
 
 
     public static void main(String[] args) {
-        String input = "abcd";
+        String input = "abaaabbcd";
         System.out.println("Longest Uniform Substring: " + findLongestUniformSubstring(input));
         // Output: "aaaa"
     }

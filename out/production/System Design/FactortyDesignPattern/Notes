@@ -1,0 +1,6 @@
+OS is main interface
+Android IOS Windows are implements from the OS interface
+
+When we are creating a object for these classes instead of doing it directly, we are making use of another
+class OperatingSystemFactory, from which we are creating the object
+

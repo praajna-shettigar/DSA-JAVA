@@ -11,6 +11,7 @@ public class RemoveConsecutivePairs {
             // If stack is not empty and top element matches current character, pop it
             if (!stack.isEmpty() && stack.peek() == ch) {
                 stack.pop();
+                continue;
             }
                 stack.push(ch);
 
@@ -26,7 +27,7 @@ public class RemoveConsecutivePairs {
     }
 
     public static void main(String[] args) {
-        System.out.println(removePairs("saabbs"));  // Output: "sabs"
+        System.out.println(removePairs("saabbs"));  // Output: ""
         System.out.println(removePairs("aabbcc"));  // Output: ""
         System.out.println(removePairs("abbacddc")); // Output: ""
         System.out.println(removePairs("azxxzy"));  // Output: "ay"

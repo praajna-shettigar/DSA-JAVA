@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class AverageGrade {
     public static void main(String[] args) {
@@ -16,6 +18,10 @@ public class AverageGrade {
     public static void averageGrade(String[][] ss){
 
         Map<String, ArrayList<Integer>> map= new HashMap<>();
+
+        String str = Arrays.stream(ss).collect(Collectors.groupingBy(s->s[0],Collectors.averagingInt(s->Integer.parseInt(s[1]))))
+                .entrySet().stream().max(Map.Entry.comparingByValue()).get().getKey();
+        System.out.println("VAlue " + str);
 
         for(int i=0;i< ss.length;i++){
             String name = ss[i][0];

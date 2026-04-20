@@ -38,9 +38,13 @@ public class EmployeeSorting {
         // Sort the list using custom comparator
         Collections.sort(employees, new EmployeeSorter());
 
+        //sort using stream api
+       employees.stream().sorted(Comparator.comparingInt((Employee e)-> e.salary)
+               .thenComparing(e-> e.name).reversed()).forEach(System.out::println);
+
         // Print sorted employees
-        for (Employee emp : employees) {
-            System.out.println(emp);
-        }
+//        for (Employee emp : employees) {
+//            System.out.println(emp);
+//        }
     }
 }
